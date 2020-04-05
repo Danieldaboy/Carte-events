@@ -16,19 +16,36 @@
 </head>
 
 <body>
-    <div>
-        <p>Que faire a <strong><u style="text-decoration: underline yellow;">Paris</u></strong><p>
-    </div>
+    <header>
+        <div>
+            <p>Que faire a <strong><u style="text-decoration:  underline yellow;">Paris</u></strong>
+                <p>
+        </div>
+    </header>
 
     <div id="mapid"></div>
-    
 
+
+    <div>
+        <form  class="research" onsubmit="onFormSubmit(event)">
+            <input type="text" name="search" id="searchInput"/>
+            <input type="submit" />
+        </form> 
+
+            <div  class="icon">
+
+                <button onclick="getData('concets')">Concerts</button>
+                <button onclick="getData('musique')">Musique</button>
+                <button onclick="getData('spectacles')">Spectacle</button>
+            </div>
+    </div>
 
     <!-- import the webpage's javascript file -->
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
         integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
         crossorigin=""></script>
     <script src="script.js"></script>
+
 
 </body>
 

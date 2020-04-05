@@ -1,11 +1,25 @@
 /* votre code CSS */
 
-p {
+header {
   color: black;
   font-size: xx-large;
+  height: 50px;
+}
+
+.research {
+  display: flex;
+  justify-content: center;
+  color: brown;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  color: brown;
+  justify-content: space-around;
 }
 
 #mapid {
-  height: 85vh;
+  height: calc(100vh - 150px);
   width: 100%;
 }
