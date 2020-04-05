@@ -6,6 +6,11 @@ header {
   height: 50px;
 }
 
+.all {
+  margin-left: 35%;
+  width: 30%;
+}
+
 .research {
   display: flex;
   justify-content: center;
@@ -18,6 +23,7 @@ header {
   color: brown;
   justify-content: space-around;
 }
+
 
 #mapid {
   height: calc(100vh - 150px);
